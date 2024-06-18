@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="px-6 py-[14px] grid grid-cols-3">
       {/*search box*/}
-      <div className="flex flex-row rounded-lg items-center border-2 p-1 w-[80%] gap-1 border-gray-100">
+      <div className="flex flex-row rounded-lg items-center border-2 p-1 px-4 w-[80%] gap-1 border-gray-100">
         <div className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"

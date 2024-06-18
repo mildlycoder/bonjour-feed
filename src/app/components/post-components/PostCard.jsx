@@ -42,13 +42,13 @@ const PostCard = () => {
         <div>
           🍻 Cheers to an unforgettable weekend at Social Delhi! 🎉 Our amazing
           customers enjoyed great company, delicious drinks, and fantastic
-          vibes. Here's to many more weekends like this! 🍹✨
+          vibes. Here is to many more weekends like this! 🍹✨
         </div>
 
         <div className="flex gap-2 text-gray-700">
-          <p>#WeekendVibes</p>
-          <p>#PubLife</p>
-          <p>#GreatTimes</p>
+          <p>🍻WeekendVibes</p>
+          <p>🍻PubLife</p>
+          <p>🍻GreatTimes</p>
         </div>
       </div>
       {/*image*/}
