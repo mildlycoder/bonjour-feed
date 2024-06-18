@@ -67,7 +67,7 @@ const EventCard = () => {
                 mollit
               </div>
             </div>
-            <div className="flex gap-4">
+            <div className="flex mt-4 gap-4">
               <div className="bg-white/30 text-[12px] px-2 p-1 rounded-[4px] backdrop-blur">
                 24th, June
               </div>
