@@ -4,11 +4,11 @@ const EventCard = () => {
   return (
     <div className="bg-white flex flex-col border-[1px] border-gray-200 rounded-lg p-4 gap-4">
       {/*tags*/}
-      <div className="flex gap-4 items-center text-sm">
-        <div className="bg-gray-200 px-2 py-1 rounded-[6px] text-gray-600 font-semibold">
+      <div className="flex gap-4 items-center text-[12px]">
+        <div className="bg-gray-100 px-2 py-1 rounded-[6px] text-gray-500 font-semibold">
           Happening Next weekend
         </div>
-        <div className="bg-red-300 px-2 py-1 rounded-[6px] text-red-600 font-semibold">
+        <div className="bg-red-200/70 px-2 py-1 rounded-[6px] text-red-500 font-semibold">
           Sponsored ad
         </div>
       </div>
@@ -59,12 +59,11 @@ const EventCard = () => {
           <div className="backdrop-blur-[4px] text-white p-4 flex flex-col h-[45%] justify-between bg-gradient-to-b from-transparent to-black/60 w-full rounded-lg">
             <div>
               <div className="text-lg font-semibold">
-                Lorem ipsum dolor sit amet{" "}
+                XYZ Brand is unveiling a brand new recipe this weekend!
               </div>
-              <div className="text-sm">
-                Lorem ipsum dolor sit amet, officia excepteur ex fugiat
-                reprehenderit enim labore culpa sint ad nisi Lorem pariatur
-                mollit
+              <div className="text-sm w-[65%]">
+                Dive into our delicious Spicy Mango Chicken Tacos – a perfect
+                blend of tangy, spicy, and savory flavors.
               </div>
             </div>
             <div className="flex mt-4 gap-4">

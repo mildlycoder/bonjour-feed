@@ -6,8 +6,8 @@ const PostCard = () => {
       <div className="flex justify-between items-center mt-4 mx-4">
         <div className="flex items-center gap-2 justify-center">
           <div>
-          <Image width={42} height={42} src="/sod.png" />
-        </div>
+            <Image width={42} height={42} src="/sod.png" />
+          </div>
           <div className="flex flex-col">
             <p className="text-[16px] font-bold leading-tight">
               Social Delhi .{" "}
@@ -40,18 +40,15 @@ const PostCard = () => {
       {/*content*/}
       <div className="mx-4 flex flex-col gap-4">
         <div>
-          Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
-          enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
-          exercitation amet. Nisi anim cupidatat excepteur officia.
-          Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate
-          voluptate dolor minim nulla est proident. Nostrud officia pariatur ut
-          officia
+          🍻 Cheers to an unforgettable weekend at Social Delhi! 🎉 Our amazing
+          customers enjoyed great company, delicious drinks, and fantastic
+          vibes. Here's to many more weekends like this! 🍹✨
         </div>
 
         <div className="flex gap-2 text-gray-700">
-          <p>#Lorem</p>
-          <p>#Lorem</p>
-          <p>#Lorem</p>
+          <p>#WeekendVibes</p>
+          <p>#PubLife</p>
+          <p>#GreatTimes</p>
         </div>
       </div>
       {/*image*/}
