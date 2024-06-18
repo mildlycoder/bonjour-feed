@@ -4,23 +4,10 @@ const PostCard = () => {
     <div className="bg-white flex flex-col border-[1px] border-gray-200 rounded-lg gap-4">
       {/*info*/}
       <div className="flex justify-between items-center mt-4 mx-4">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center gap-2 justify-center">
           <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="#9A9A9A"
-              className="size-11"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-              />
-            </svg>
-          </div>
+          <Image width={42} height={42} src="/sod.png" />
+        </div>
           <div className="flex flex-col">
             <p className="text-[16px] font-bold leading-tight">
               Social Delhi .{" "}
