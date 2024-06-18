@@ -5,10 +5,10 @@ const EventCard = () => {
     <div className="bg-white flex flex-col border-[1px] border-gray-200 rounded-lg p-4 gap-4">
       {/*tags*/}
       <div className="flex gap-4 items-center text-[12px]">
-        <div className="bg-gray-100 px-2 py-1 rounded-[6px] text-gray-500 font-semibold">
+        <div className="bg-gray-100 px-2 py-1 rounded-[6px] text-gray-500 ">
           Happening Next weekend
         </div>
-        <div className="bg-red-200/70 px-2 py-1 rounded-[6px] text-red-500 font-semibold">
+        <div className="bg-red-200/70 px-2 py-1 rounded-[6px] text-red-500 ">
           Sponsored ad
         </div>
       </div>
