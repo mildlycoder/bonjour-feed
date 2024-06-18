@@ -56,7 +56,7 @@ const EventCard = () => {
           className="object-cover rounded-lg"
         />
         <div className="absolute flex items-end rounded-lg z-10 top-0 border-2 border-red-100 left-0 h-full w-full bg-gradient-to-b from-transparent to-black/60">
-          <div className="backdrop-blur-[4px] text-white p-4 flex flex-col h-[45%] justify-between bg-gradient-to-b from-transparent to-black/60 w-full rounded-lg">
+          <div className="backdrop-blur-[4px] text-white p-4 flex flex-col gap-4 min-h-[45%] justify-between bg-gradient-to-b from-transparent to-black/60 w-full rounded-lg">
             <div>
               <div className="text-lg font-semibold">
                 XYZ Brand is unveiling a brand new recipe this weekend!
@@ -66,7 +66,7 @@ const EventCard = () => {
                 blend of tangy, spicy, and savory flavors.
               </div>
             </div>
-            <div className="flex mt-4 gap-4">
+            <div className="flex gap-4">
               <div className="bg-white/30 text-[12px] px-2 p-1 rounded-[4px] backdrop-blur">
                 24th, June
               </div>
